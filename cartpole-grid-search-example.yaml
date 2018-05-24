@@ -5,9 +5,7 @@ cartpole-ppo:
         episode_reward_mean: 200
         time_total_s: 180
     config:
-        num_workers: 1
-        num_sgd_iter:
-            grid_search: [1, 4]
+        num_workers: 7
         sgd_batchsize:
             grid_search: [128, 256, 512]
         clip_param:
